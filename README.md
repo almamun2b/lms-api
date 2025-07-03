@@ -147,7 +147,7 @@ Response:
 
 ### 4. Update Book
 
-**PUT** `/api/books/:bookId`
+**PATCH** `/api/books/:bookId`
 
 Request example:
 
