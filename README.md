@@ -15,8 +15,8 @@ A Library Management System API built with **Express**, **TypeScript**, and **Mo
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/library-management-system.git
-cd library-management-system
+git clone https://github.com/almamun2b/lms-api
+cd lms-api
 npm install
 # or
 yarn install
@@ -124,6 +124,12 @@ Response:
   "success": true,
   "message": "Books retrieved successfully",
   "data": [ ... ]
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 100,
+    "totalPage": 10
+  }
 }
 ```
 
@@ -234,6 +240,12 @@ Response:
       "totalQuantity": 5
     }
   ]
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 100,
+    "totalPage": 10
+  }
 }
 ```
 
@@ -295,4 +307,4 @@ MIT
 
 ## 👤 Author
 
-- [Your Name](https://github.com/almamun2b)
+- [Abdullah Al Mamun](https://github.com/almamun2b)
